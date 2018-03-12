@@ -1,0 +1,345 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchNamedPackageData node
+9 silly mapToRegistry name node
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'node',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'node',
+12 silly mapToRegistry   name: 'node',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/node
+14 verbose request uri https://registry.npmjs.org/node
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 7:37:19 PM
+17 verbose request id edeacc3d0473d0ea
+18 verbose etag "5a9066f6-5455b"
+19 verbose lastModified Fri, 23 Feb 2018 19:09:42 GMT
+20 http request GET https://registry.npmjs.org/node
+21 http 200 https://registry.npmjs.org/node
+22 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+22 verbose headers   server: 'UploadServer',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'last-modified': 'Thu, 8 Mar 2018 3:09:13 GMT',
+22 verbose headers   etag: '"5aa0a959-56c6e"',
+22 verbose headers   'x-npm-region': 'US-East',
+22 verbose headers   'content-encoding': 'gzip',
+22 verbose headers   'content-length': '57036',
+22 verbose headers   'accept-ranges': 'bytes',
+22 verbose headers   date: 'Sun, 11 Mar 2018 23:37:13 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   age: '7428',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-dca17726-DCA',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1520811434.687760,VS0,VE2',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 200,
+23 silly get   { 'content-type': 'application/json; charset=UTF-8',
+23 silly get     server: 'UploadServer',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'last-modified': 'Thu, 8 Mar 2018 3:09:13 GMT',
+23 silly get     etag: '"5aa0a959-56c6e"',
+23 silly get     'x-npm-region': 'US-East',
+23 silly get     'content-encoding': 'gzip',
+23 silly get     'content-length': '57036',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Sun, 11 Mar 2018 23:37:13 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '7428',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-dca17726-DCA',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1520811434.687760,VS0,VE2',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose get saving node to C:\Users\johny\AppData\Roaming\npm-cache\registry.npmjs.org\node\.cache.json
+25 verbose correctMkdir C:\Users\johny\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule node@9.8.0 checking installable status
+39 silly cache add args [ 'node', null ]
+40 verbose cache add spec node
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'node',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'node',
+41 silly cache add   name: 'node',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed node@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for node
+44 info addNameTag [ 'node', 'latest' ]
+45 silly mapToRegistry name node
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'node',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'node',
+48 silly mapToRegistry   name: 'node',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/node
+50 verbose addNameTag registry:https://registry.npmjs.org/node not in flight; fetching
+51 verbose get https://registry.npmjs.org/node not expired, no request
+52 silly addNameTag next cb for node with tag latest
+53 silly addNamed node@9.8.0
+54 verbose addNamed "9.8.0" is a plain semver version for node
+55 silly mapToRegistry name node
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'node',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   escapedName: 'node',
+58 silly mapToRegistry   name: 'node',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/node
+60 verbose addRemoteTarball https://registry.npmjs.org/node/-/node-9.8.0.tgz not in flight; adding
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/node/-/node-9.8.0.tgz',
+61 verbose addRemoteTarball   '6f59b29e4333679fa820a0cee8b49b0c299ce008' ]
+62 info retry fetch attempt 1 at 7:37:19 PM
+63 info attempt registry request try #1 at 7:37:19 PM
+64 http fetch GET https://registry.npmjs.org/node/-/node-9.8.0.tgz
+65 http fetch 200 https://registry.npmjs.org/node/-/node-9.8.0.tgz
+66 silly fetchAndShaCheck shasum 6f59b29e4333679fa820a0cee8b49b0c299ce008
+67 verbose addTmpTarball C:\Users\johny\AppData\Local\Temp\npm-476-798acd70\registry.npmjs.org\node\-\node-9.8.0.tgz not in flight; adding
+68 verbose addTmpTarball already have metadata; skipping unpack for node@9.8.0
+69 verbose correctMkdir C:\Users\johny\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+70 silly cache afterAdd node@9.8.0
+71 verbose afterAdd C:\Users\johny\AppData\Roaming\npm-cache\node\9.8.0\package\package.json not in flight; writing
+72 verbose correctMkdir C:\Users\johny\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+73 verbose afterAdd C:\Users\johny\AppData\Roaming\npm-cache\node\9.8.0\package\package.json written
+74 silly fetchNamedPackageData node-bin-setup
+75 silly mapToRegistry name node-bin-setup
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: 'node-bin-setup',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   escapedName: 'node-bin-setup',
+78 silly mapToRegistry   name: 'node-bin-setup',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+80 verbose request uri https://registry.npmjs.org/node-bin-setup
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 7:37:19 PM
+83 verbose etag "5976bbea-1511"
+84 verbose lastModified Tue, 25 Jul 2017 3:32:58 GMT
+85 http request GET https://registry.npmjs.org/node-bin-setup
+86 http 304 https://registry.npmjs.org/node-bin-setup
+87 verbose headers { date: 'Sun, 11 Mar 2018 23:37:13 GMT',
+87 verbose headers   via: '1.1 varnish',
+87 verbose headers   'cache-control': 'max-age=300',
+87 verbose headers   etag: '"5976bbea-1511"',
+87 verbose headers   age: '0',
+87 verbose headers   connection: 'keep-alive',
+87 verbose headers   'x-served-by': 'cache-dca17726-DCA',
+87 verbose headers   'x-cache': 'MISS',
+87 verbose headers   'x-cache-hits': '0',
+87 verbose headers   'x-timer': 'S1520811434.920417,VS0,VE85',
+87 verbose headers   vary: 'Accept-Encoding, Accept' }
+88 silly get cb [ 304,
+88 silly get   { date: 'Sun, 11 Mar 2018 23:37:13 GMT',
+88 silly get     via: '1.1 varnish',
+88 silly get     'cache-control': 'max-age=300',
+88 silly get     etag: '"5976bbea-1511"',
+88 silly get     age: '0',
+88 silly get     connection: 'keep-alive',
+88 silly get     'x-served-by': 'cache-dca17726-DCA',
+88 silly get     'x-cache': 'MISS',
+88 silly get     'x-cache-hits': '0',
+88 silly get     'x-timer': 'S1520811434.920417,VS0,VE85',
+88 silly get     vary: 'Accept-Encoding, Accept' } ]
+89 verbose etag https://registry.npmjs.org/node-bin-setup from cache
+90 verbose get saving node-bin-setup to C:\Users\johny\AppData\Roaming\npm-cache\registry.npmjs.org\node-bin-setup\.cache.json
+91 verbose correctMkdir C:\Users\johny\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+92 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+93 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+94 verbose cache add spec node-bin-setup@^1.0.0
+95 silly cache add parsed spec Result {
+95 silly cache add   raw: 'node-bin-setup@^1.0.0',
+95 silly cache add   scope: null,
+95 silly cache add   escapedName: 'node-bin-setup',
+95 silly cache add   name: 'node-bin-setup',
+95 silly cache add   rawSpec: '^1.0.0',
+95 silly cache add   spec: '>=1.0.0 <2.0.0',
+95 silly cache add   type: 'range' }
+96 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+97 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+98 silly addNameRange { name: 'node-bin-setup',
+98 silly addNameRange   range: '>=1.0.0 <2.0.0',
+98 silly addNameRange   hasData: false }
+99 silly mapToRegistry name node-bin-setup
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry data Result {
+102 silly mapToRegistry   raw: 'node-bin-setup',
+102 silly mapToRegistry   scope: null,
+102 silly mapToRegistry   escapedName: 'node-bin-setup',
+102 silly mapToRegistry   name: 'node-bin-setup',
+102 silly mapToRegistry   rawSpec: '',
+102 silly mapToRegistry   spec: 'latest',
+102 silly mapToRegistry   type: 'tag' }
+103 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+104 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+105 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+106 silly addNameRange number 2 { name: 'node-bin-setup',
+106 silly addNameRange   range: '>=1.0.0 <2.0.0',
+106 silly addNameRange   hasData: true }
+107 silly addNameRange versions [ 'node-bin-setup',
+107 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+108 silly addNamed node-bin-setup@1.0.6
+109 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+110 silly cache afterAdd node-bin-setup@1.0.6
+111 verbose afterAdd C:\Users\johny\AppData\Roaming\npm-cache\node-bin-setup\1.0.6\package\package.json not in flight; writing
+112 verbose correctMkdir C:\Users\johny\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+113 verbose afterAdd C:\Users\johny\AppData\Roaming\npm-cache\node-bin-setup\1.0.6\package\package.json written
+114 silly loadAllDepsIntoIdealTree Finishing
+115 silly loadIdealTree Finishing
+116 silly currentTree pint-pal-@1.0.0
+117 silly idealTree pint-pal-@1.0.0
+117 silly idealTree +-- node-bin-setup@1.0.6
+117 silly idealTree `-- node@9.8.0
+118 silly generateActionsToTake Starting
+119 silly install generateActionsToTake
+120 silly generateActionsToTake Finishing
+121 silly diffTrees action count 2
+122 silly diffTrees add node-bin-setup@1.0.6
+123 silly diffTrees add node@9.8.0
+124 silly decomposeActions action count 16
+125 silly decomposeActions fetch node-bin-setup@1.0.6
+126 silly decomposeActions extract node-bin-setup@1.0.6
+127 silly decomposeActions test node-bin-setup@1.0.6
+128 silly decomposeActions preinstall node-bin-setup@1.0.6
+129 silly decomposeActions build node-bin-setup@1.0.6
+130 silly decomposeActions install node-bin-setup@1.0.6
+131 silly decomposeActions postinstall node-bin-setup@1.0.6
+132 silly decomposeActions finalize node-bin-setup@1.0.6
+133 silly decomposeActions fetch node@9.8.0
+134 silly decomposeActions extract node@9.8.0
+135 silly decomposeActions test node@9.8.0
+136 silly decomposeActions preinstall node@9.8.0
+137 silly decomposeActions build node@9.8.0
+138 silly decomposeActions install node@9.8.0
+139 silly decomposeActions postinstall node@9.8.0
+140 silly decomposeActions finalize node@9.8.0
+141 silly runTopLevelLifecycles Starting
+142 silly executeActions Starting
+143 silly install executeActions
+144 silly doSerial global-install 0
+145 silly doParallel fetch 2
+146 verbose correctMkdir C:\Users\johny\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+147 verbose lock using C:\Users\johny\AppData\Roaming\npm-cache\_locks\staging-2fee6fede75ba9e8.lock for C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging
+148 silly doParallel extract 2
+149 silly extract node-bin-setup@1.0.6
+150 silly extract node@9.8.0
+151 verbose unbuild node_modules\.staging\node-bin-setup-49ea45a1
+152 verbose unbuild node_modules\.staging\node-6283676e
+153 silly gentlyRm C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-bin-setup-49ea45a1 is being purged from base C:\Users\johny\Desktop\hw\Pint-Pal
+154 verbose gentlyRm don't care about contents; nuking C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-bin-setup-49ea45a1
+155 verbose tar unpack C:\Users\johny\AppData\Roaming\npm-cache\node-bin-setup\1.0.6\package.tgz
+156 verbose tar unpacking to C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-bin-setup-49ea45a1
+157 silly gentlyRm C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-bin-setup-49ea45a1 is being purged
+158 verbose gentlyRm don't care about contents; nuking C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-bin-setup-49ea45a1
+159 silly gentlyRm C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-6283676e is being purged from base C:\Users\johny\Desktop\hw\Pint-Pal
+160 verbose gentlyRm don't care about contents; nuking C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-6283676e
+161 silly gunzTarPerm modes [ '777', '666' ]
+162 verbose tar unpack C:\Users\johny\AppData\Roaming\npm-cache\node\9.8.0\package.tgz
+163 verbose tar unpacking to C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-6283676e
+164 silly gentlyRm C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-6283676e is being purged
+165 verbose gentlyRm don't care about contents; nuking C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-6283676e
+166 silly gunzTarPerm modes [ '777', '666' ]
+167 silly gunzTarPerm extractEntry package.json
+168 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+169 silly gunzTarPerm extractEntry package.json
+170 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+171 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+172 silly gunzTarPerm modified mode [ 'installArchSpecificPackage.js', 420, 438 ]
+173 silly gunzTarPerm extractEntry README.md
+174 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+175 silly gunzTarPerm extractEntry index.js
+176 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+177 silly gentlyRm C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-bin-setup-49ea45a1\node_modules is being purged
+178 verbose gentlyRm don't care about contents; nuking C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-bin-setup-49ea45a1\node_modules
+179 silly gentlyRm C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-6283676e\node_modules is being purged
+180 verbose gentlyRm don't care about contents; nuking C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-6283676e\node_modules
+181 silly doParallel preinstall 2
+182 silly preinstall node-bin-setup@1.0.6 C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-bin-setup-49ea45a1
+183 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+184 silly preinstall node@9.8.0 C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-6283676e
+185 info lifecycle node@9.8.0~preinstall: node@9.8.0
+186 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+187 verbose lifecycle node@9.8.0~preinstall: unsafe-perm in lifecycle true
+188 verbose lifecycle node@9.8.0~preinstall: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-6283676e\node_modules\.bin;C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.bin;C:\Users\johny\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\johny\bin;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\MySQL\MySQL Utilities 1.6;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+189 verbose lifecycle node@9.8.0~preinstall: CWD: C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging\node-6283676e
+190 silly lifecycle node@9.8.0~preinstall: Args: [ '/d /s /c', 'node installArchSpecificPackage' ]
+191 silly lifecycle node@9.8.0~preinstall: Returned: code: 1  signal: null
+192 info lifecycle node@9.8.0~preinstall: Failed to exec preinstall script
+193 verbose unlock done using C:\Users\johny\AppData\Roaming\npm-cache\_locks\staging-2fee6fede75ba9e8.lock for C:\Users\johny\Desktop\hw\Pint-Pal\node_modules\.staging
+194 silly rollbackFailedOptional Starting
+195 silly rollbackFailedOptional Finishing
+196 silly runTopLevelLifecycles Finishing
+197 silly install printInstalled
+198 verbose stack Error: node@9.8.0 preinstall: `node installArchSpecificPackage`
+198 verbose stack Exit status 1
+198 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+198 verbose stack     at emitTwo (events.js:106:13)
+198 verbose stack     at EventEmitter.emit (events.js:191:7)
+198 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+198 verbose stack     at emitTwo (events.js:106:13)
+198 verbose stack     at ChildProcess.emit (events.js:191:7)
+198 verbose stack     at maybeClose (internal/child_process.js:891:16)
+198 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+199 verbose pkgid node@9.8.0
+200 verbose cwd C:\Users\johny\Desktop\hw\Pint-Pal
+201 error Windows_NT 10.0.16299
+202 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node"
+203 error node v6.11.2
+204 error npm  v3.10.10
+205 error code ELIFECYCLE
+206 error node@9.8.0 preinstall: `node installArchSpecificPackage`
+206 error Exit status 1
+207 error Failed at the node@9.8.0 preinstall script 'node installArchSpecificPackage'.
+207 error Make sure you have the latest version of node.js and npm installed.
+207 error If you do, this is most likely a problem with the node package,
+207 error not with npm itself.
+207 error Tell the author that this fails on your system:
+207 error     node installArchSpecificPackage
+207 error You can get information on how to open an issue for this project with:
+207 error     npm bugs node
+207 error Or if that isn't available, you can get their info via:
+207 error     npm owner ls node
+207 error There is likely additional logging output above.
+208 verbose exit [ 1, true ]
